@@ -182,7 +182,10 @@
     .services-h3 {
         font-size: 30px;
     }
-
+    .services__items {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .services__items:last-child>h3 {
         padding-top: 0;
         margin-bottom: 50px;
