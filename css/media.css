@@ -180,12 +180,15 @@
     }
 
     .services-h3 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .services__items:last-child>h3 {
         padding-top: 0;
         margin-bottom: 50px;
+    }
+    .services-img {
+        width: 100%;
     }
 
     .form-group {
