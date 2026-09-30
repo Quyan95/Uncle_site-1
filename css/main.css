@@ -1,6 +1,6 @@
 :root {
-    --bgc-color: #FDF8E6;
-    --btn-color: #2D7DD2;
+    --bgc-color: #F4F6F8;
+    --btn-color: #143D2E;
 }
 
 html {
@@ -14,20 +14,17 @@ html {
     box-sizing: inherit;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-a {
+body, h1, h2, h3, h4, h5, h6, p, ul, a {
     margin: 0;
     padding: 0;
-    color: #2F2E2E;
-    font-family: "Onest", sans-serif;
+    color: #1A1A1A;
+    font-family: 'Manrope', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .text-h2, .services-h3, .reviews-h3, .contact__items-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 a {
@@ -372,21 +369,22 @@ ul {
 /* Footer */
 
 .footer {
-    background-color: #000;
+    background-color: var(--btn-color);
 }
 
 .footer__flex {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .footer-p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
-    color: #fff;
+    color: var(--bgc-color);
+    opacity: 0.8;
 }
 
 .footer-nav {
